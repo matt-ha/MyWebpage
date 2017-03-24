@@ -3,7 +3,8 @@ $Message;
 $Name;
 $Email;
 $to;
-
+$headers;
+$subject;
 
 // $subject = 'the subject';
 // $message = 'hello';
@@ -13,6 +14,11 @@ $to;
   //     // $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
    //
   //  mail($to, $subject, $message, $headers);
+
+
+  if (isset($Name && $Email && $Message ['Name','Email','Message'])) {
+      $output = mail_utf8($Name,$Email,$Message);
+    }
 
 
    function mail_utf8($to = 'g2peee@hotmail.com', $Name, $Email,

@@ -183,7 +183,7 @@ require_once 'action_page.php';
       <div id="contact" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Contact Me<span class="text-muted"> Keep in touch!</span></h2>
-          <p class="lead">2233 Splitrail Trail<br>Buford, GA 30519<br>
+          <p class="lead">2233 Splitrail Trail<br>Buford, GA 30519<br></p>
 
             <form action="/action_page.php" target="_blank">
                 <table>
@@ -197,7 +197,14 @@ require_once 'action_page.php';
                  SEND MESSAGE
               </button>
             </form>
-          </p>
+
+
+            <?php
+            if(isset($output)) {
+              echo "email has been sent";
+            } ?>
+
+
         </div>
         <div class="col-md-5" style="margin-top:180px">
           <img class="featurette-image img-responsive center-block" src="contact.png" alt="No Image Found" onerror="this.src='no_image.png';">

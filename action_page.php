@@ -19,7 +19,7 @@ $message = Swift_Message::newInstance($Name)
 
 $result = $mailer->send($message);
 if ($result = 1) {
-  header("Location: index.php"); /* Redirect browser */
+  header("Location: https://mywebpag3.herokuapp.com/index.php"); /* Redirect browser */
 exit();
 
 /*

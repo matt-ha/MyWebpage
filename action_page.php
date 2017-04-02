@@ -1,5 +1,5 @@
 <?php
-require_once '\vendor\autoload.php';
+require_once '\vendor\swiftmailer\swiftmailer\lib\swift_required.php';
 
 $Name = $_GET['Name'];
 $Email = $_GET['Email'];

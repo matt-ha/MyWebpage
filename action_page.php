@@ -6,8 +6,8 @@ $Email = $_GET['Email'];
 $Message = $_GET['Message'];
 
 $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
-  ->setUsername('')
-  ->setPassword('');
+  ->setUsername('ha.ha.ha.matt@gmail.com')
+  ->setPassword('Qpwoeiru10293847');
 
 
 $mailer = Swift_Mailer::newInstance($transport);

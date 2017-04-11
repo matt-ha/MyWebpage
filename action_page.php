@@ -1,5 +1,8 @@
 <?php
 require_once '\vendor\autoload.php';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 $Name = $_GET['Name'];
 $Email = $_GET['Email'];

@@ -23,31 +23,4 @@ if ($result = 1) {
   header("Location: index.php"); /* Redirect browser */
 exit();
 
-/*
-header( "refresh:5;url=wherever.php" );
-this is the php way to set header which will redirect you to wherever.php in 5 seconds
-*/
-}
-
-// $all = array($Name,$Email,$Message);
-//
-// print_r($all);
-//
-// mail_utf8($Name,$Email,$Message);
-//   //     echo "it work";
-//    //
-//   //   // }
-//    //
-//    //
-// function mail_utf8($to = 'g2peee@hotmail.com', $Name, $Email, $subject = '(No subject)', $Message = '')
-// {
-//    $Name = "=?UTF-8?B?".base64_encode($Name)."?=";
-//    $subject = "=?UTF-8?B?".base64_encode($subject)."?=";
-//    $headers = "From: $Name <$Email>\r\n".
-//               "MIME-Version: 1.0" . "\r\n" .
-//               "Content-type: text/html; charset=UTF-8" . "\r\n";
-//
-//   return mail($to, $subject, $message, $headers);
-// }
-
 ?>

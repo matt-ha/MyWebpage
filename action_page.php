@@ -1,6 +1,6 @@
 <?php
 require_once getcwd() . '/vendor/autoload.php';
-$ini = parse_ini_file('/test/config.ini');
+$ini = parse_ini_file('/vendor/test/config.ini');
 
 $Name = $_GET['Name'];
 $Email = $_GET['Email'];

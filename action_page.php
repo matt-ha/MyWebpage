@@ -23,4 +23,5 @@ if ($result = 1) {
   header("Location: index.php"); /* Redirect browser */
 exit();
 
+}
 ?>

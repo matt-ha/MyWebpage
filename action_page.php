@@ -15,7 +15,7 @@ $mailer = Swift_Mailer::newInstance($transport);
 
 $message = Swift_Message::newInstance($Name)
   ->setFrom(array('myemail@hotmail.com' => $Email))
-  ->setTo(array(getenv('app_email')))
+  ->setTo(array(getenv('app_email2')))
   ->setBody("From: <$Email> \n\n" . $Message);
 
 $result = $mailer->send($message);
